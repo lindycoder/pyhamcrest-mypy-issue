@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyhamcrest-mypy-issue"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyHamcrest = "^2.0.3"
+mypy = "^0.930"
+
+[tool.mypy]
+strict=true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
